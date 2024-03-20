@@ -9,6 +9,17 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'ppm light';
+    src: url(../fonts/fonts/PPMonumentExtended-Light.otf);
+}
+
+@font-face {
+    font-family: 'ppm light';
+    src: url(../fonts/fonts/PPMonumentExtended-LightItalic.otf);
+    font-style: italic;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -19,13 +30,12 @@ body, html {
 
 header {
     background-color: black;
-    height: 10vh;
-    padding-top: 1vh;
     font-size: x-large;
     justify-content: center;
     align-items: left;
     text-align: center;
     font-family: 'cool font';
+    font-style: italic;
 }
 
 #landingpage {
@@ -35,6 +45,8 @@ header {
     height: 100vh;
     width: 100%;
     display: flex;
+    font-family: 'cool font';
+    font-style: italic;
 }
 
 #landingpage h1 {
@@ -54,6 +66,8 @@ main {
     flex-direction: column;
     font-size: xx-large;
     padding-top: 10vh;
+    font-family: 'ppm light';
+    font-style: italic;
 }
 
 .container1, .container3 {
@@ -61,7 +75,7 @@ main {
     height: 60vh;
     justify-content: center;
     align-items: left;
-    text-align: center;
+    text-align: right;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
     margin: 5vh 5vh;
@@ -72,7 +86,7 @@ main {
     height: 60vh;
     justify-content: center;
     align-items: right;
-    text-align: center;
+    text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
     margin: 5vh 5vh;
@@ -88,4 +102,35 @@ main {
     display: flex;
     height: 100vh;
     background-color: black;
+    background-image: url(../img/certifications.jpg);
+    flex-direction: column;
+}
+
+#certifications h1 {
+    text-align: center;
+    font-family: 'cool font';
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4vh;
+    margin: 5vh 5vh;
+    font-family: 'ppm light';
+    font-style: italic;
+    font-size: large;
+}
+.container p a{
+    color: rgb(0, 13, 255);
+    text-decoration: none;
+}
+
+.container img {
+    width: 50%;
+    length: 25%;
 }
