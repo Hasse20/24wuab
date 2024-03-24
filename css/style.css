@@ -100,7 +100,6 @@ main {
 #certifications {
     display: flex;
     height: 100vh;
-    background-color: black;
     background-image: url(../img/certifications.jpg);
     flex-direction: column;
 }
@@ -188,4 +187,21 @@ main {
 .containerc2 img {
     width: 60%;
     length: 25%;
+}
+
+
+.section1,
+.section2,
+.section3 {
+    background-color: black;
+    opacity: 0.7;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.section1.active,
+.section2.active,
+.section3.active {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out; 
+    visibility: visible; 
 }
