@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Hamburger meny, mobilanpassning, minimera bildstorlekar, rubriker, nav meny-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,6 +11,15 @@
   <script src="js/script.js"></script>
 </head>
 <body> 
+  <nav>
+    <ul>
+        <li><a href="index.html">Hem</a></li> 
+        <li><a href="certifications.html">Om</a></li>
+        <li><a href="#tjanster">Tjänster</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+</nav>
+
   <div id="landingpage" class="section1">
     <h1>Utforska min värld av innovation och teknik.</h1>
   </div>
@@ -24,5 +33,13 @@
     <div class="container"><p>Med en gedigen utbildning från NTI Johanneberg Teknik och Chalmers Universitetet har jag förvärvat en mångsidig kompetens inom teknikvärlden. Jag har djupgående kunskaper inom C++, HTML, CSS, JavaScript och Ruby, vilket har möjliggjort utvecklingen av avancerade projekt som GLFW Raycaster i C++ och en GSM-switch. För att lära dig mer om mina certifikationer och projekt,<a href="certifications.html">klicka här</a></p><img src="https://www.chalmers.se/_next/image/?url=https%3A%2F%2Fcms.www.chalmers.se%2FMedia%2F2wdho2t1%2Fchalmersportalen_190109_02_1920x1080px.jpg%3Frxy%3D0.5549461394840134%252C0.606921784752744%26width%3D1920%26height%3D1080%26rnd%3D133126535441570000%26quality%3D60%26format%3Dwebp&w=1200&q=85" alt=""></div>
   </div>
   <footer></footer>
+  <script>
+    window.onload = function() {
+        var landingSection = document.getElementById("landingpage");
+        landingSection.scrollIntoView({ behavior: 'smooth' });
+    };
+</script>
+  
 </body>
 </html>
+

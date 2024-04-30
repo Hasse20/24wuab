@@ -205,3 +205,36 @@ main {
     transition: opacity 0.4s ease-in-out; 
     visibility: visible; 
 }
+
+nav {
+    background-color: #000000;
+    padding: 10px 20px;
+    font-family: 'ppm light';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+}

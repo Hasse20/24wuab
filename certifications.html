@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <title>Hansson</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Hem</a></li> 
+            <li><a href="certifications.html">Om</a></li>
+            <li><a href="#tjanster">Tjänster</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
     <main id="cmain">
         <h1>Mina projekt</h1>
         <p>Under mina år i gymnasiet och högskolan har jag haft ett flertal projekt</p>
@@ -14,5 +23,11 @@
         <div class="containerc2"><img src="/img/phone.jpg"><p>Utforska min unika GSM-switch, en smart lösning som ger dig möjligheten att fjärrstyra elektriska apparater med hjälp av en klassisk Blackberry-telefon. Genom att helt enkelt ringa numret kopplat till din Blackberry kan du aktivera ett relä och kontrollera olika enheter eller system var du än befinner dig. Upplev den nostalgiska känslan av att använda din gamla Blackberry samtidigt som du utnyttjar den för moderna ändamål med denna innovativa teknik</p></div>
     </main>
     
+    <script>
+        window.onload = function() {
+            var landingSection = document.getElementById("cmain");
+            landingSection.scrollIntoView({ behavior: 'smooth' });
+        };
+    </script>
 </body>
 </html>
