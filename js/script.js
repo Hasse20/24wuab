@@ -36,3 +36,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     window.addEventListener('scroll', scrollHandler);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var menuIcon = document.getElementById("menuIcon"); 
+    var myLinks = document.getElementById("myLinks"); 
+    menuIcon.addEventListener("click", function () {
+        if (myLinks.style.display === "block") {
+            myLinks.style.display = "none"; 
+        } else {
+            myLinks.style.display = "block"; 
+        }
+    });
+});

@@ -99,7 +99,7 @@ main {
 
 #certifications {
     display: flex;
-    height: 100vh;
+    height: 130vh;
     background-image: url(../img/certifications.jpg);
     flex-direction: column;
 }
@@ -112,7 +112,8 @@ main {
 
 .container {
     display: flex;
-    height: 80vh;
+    flex-direction: column;
+    height: 110vh;
     justify-content: left;
     align-items: left;
     text-align: left;
@@ -131,6 +132,10 @@ main {
 .container img {
     width: 50%;
     length: 25%;
+}
+
+.container h2 {
+    font-size: larger;
 }
 
 
@@ -237,4 +242,97 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color: #555;
     border-radius: 5px;
+}
+
+#menuIcon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 0px; 
+    background-color: #000000;
+    width: 100%; 
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center; 
+}
+
+.dropdown-menu ul li {
+    margin: 10px 0;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    #menuIcon {
+        display: flex;
+        align-items: flex-end;
+    }
+    nav {
+        display: none;
+    }
+    #landingpage {
+        width:100%;
+    }
+    #landingpage h1 {
+        margin-left: 5vh;
+    }
+    main {
+        width:100%;
+    }
+    .container1, .container2, .container3, .containerc1 {
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 2vh;
+        margin: 5vh 5vh;
+        font-size: small;
+    }
+
+    .containerc2 {
+        display: flex;
+        height: 90vh;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 2vh;
+        margin: 5vh 5vh;
+        font-size: small;
+    }
+
+    .container {
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 2vh;
+        margin: 5vh 5vh;
+        font-size: small;
+    }
+    .container img {
+        width:100%;
+    }
+    
+    .container1 img, .container2 img, .container3 img, .containerc1 img, .containerc2 img {
+        width: 100%;
+    }
+    #certifications {
+        height: 140vh;
+    }
+
 }
