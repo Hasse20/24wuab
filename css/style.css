@@ -69,6 +69,13 @@ main {
     font-size: 3vh;
 }
 
+#kmain, #tmain {
+    height: 150vh;
+    font-family: 'ppm light';
+    font-style: italic;
+    font-size: 3vh;
+}
+
 .container1, .container3 {
     display: flex;
     height: 60vh;
@@ -90,6 +97,32 @@ main {
     padding: 4vh;
     margin: 5vh 5vh;
     float: right;
+}
+
+.kontaktcontainer {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2vh;
+    margin: 5vh 5vh;
+    font-size: small;
+}
+
+.tjanstercontainer {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2vh;
+    margin: 5vh 5vh;
+    font-size: small;
+}
+
+.container1 h2, .container2 h2, .container3 h2 {
+    font-size: large;
 }
 
 .container1 img, .container2 img, .container3 img {
@@ -333,6 +366,9 @@ nav ul li a.active {
     }
     #certifications {
         height: 140vh;
+    }
+    #kmain h2, #tmain h2 {
+        font-size: medium;
     }
 
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Hansson</title>
+</head>
+<body>
+    <header>
+        <div id="menuIcon">
+         ☰
+       </div>
+       <div class="dropdown-menu" id="myLinks">
+         <ul>
+           <li><a href="index.html">Hem</a></li>
+           <li><a href="certifications.html">Om</a></li>
+           <li><a href="tjanster.html">Tjänster</a></li>
+           <li><a href="kontakt.html">Kontakt</a></li>
+         </ul>
+       </div>
+       <nav>
+         <ul>
+           <li><a href="index.html">Hem</a></li>
+           <li><a href="certifications.html">Om</a></li>
+           <li><a href="tjanster.html">Tjänster</a></li>
+           <li><a href="kontakt.html">Kontakt</a></li>
+         </ul>
+       </nav>
+     </header>
+     <main id="tmain">
+        <div class="tjanstercontainer">
+         <h2>Professionella Programmeringstjänster</h2>
+         <p>
+            Behöver du skräddarsydda programvarulösningar för ditt företag eller projekt? Jag, Eric Hansson, erbjuder en rad olika programmeringstjänster för att möta dina behov. Från webbutveckling till apputveckling och systemintegration - jag är här för att hjälpa till att förverkliga dina digitala visioner.
+         </p>
+         <p>
+            Oavsett om du behöver utveckla en ny webbplats från grunden, skapa en mobilapp för att nå ut till en bredare publik eller optimera befintlig kod för bättre prestanda och säkerhet, kan jag hjälpa till. Med min expertis och passion för kodning strävar jag alltid efter att leverera högkvalitativa lösningar som möter och överträffar dina förväntningar.
+          </p>
+          <p>
+            Läs mer om mina tjänster <a href="index.html">här</a>.
+          </p>
+        </div>
+     </main>
+     <script>
+        window.onload = function() {
+            var landingSection = document.getElementById("tmain");
+            landingSection.scrollIntoView({ behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>
