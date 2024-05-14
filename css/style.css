@@ -31,7 +31,6 @@ header {
     background-color: black;
     font-size: x-large;
     justify-content: center;
-    align-items: left;
     text-align: center;
     font-family: 'cool font';
     font-style: italic;
@@ -80,7 +79,6 @@ main {
     display: flex;
     height: 60vh;
     justify-content: center;
-    align-items: left;
     text-align: right;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
@@ -91,7 +89,6 @@ main {
     display: flex;
     height: 60vh;
     justify-content: center;
-    align-items: right;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
@@ -127,7 +124,6 @@ main {
 
 .container1 img, .container2 img, .container3 img {
     width: 40%;
-    length: 25%;
 }
 
 #certifications {
@@ -148,7 +144,6 @@ main {
     flex-direction: column;
     height: 110vh;
     justify-content: left;
-    align-items: left;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
@@ -164,7 +159,6 @@ main {
 
 .container img {
     width: 50%;
-    length: 25%;
 }
 
 .container h2 {
@@ -173,7 +167,6 @@ main {
 
 
 #cmain {
-    length:100vh;
     background-image: url(../img/desert.jpg);
 }
 
@@ -193,7 +186,6 @@ main {
     display: flex;
     height: 70vh;
     justify-content: right;
-    align-items: left;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
@@ -205,14 +197,12 @@ main {
 
 .containerc1 img {
     width: 60%;
-    length: 25%;
 }
 
 .containerc2 {
     display: flex;
     height: 70vh;
     justify-content: center;
-    align-items: right;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 4vh;
@@ -224,7 +214,6 @@ main {
 
 .containerc2 img {
     width: 60%;
-    length: 25%;
 }
 
 
